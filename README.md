@@ -5,8 +5,11 @@ A simple Discord bot for making events for our DnD group.
 ## Commands
 
 `!event DATE ARGS`
+
 **DATE** in _YYYY-MM-DDTHH:mm_ format
+
 **ARGS** are placed after season and episode
+
 `!event 2021-05-01T12 First blood!` returns
 
 ```
@@ -15,7 +18,9 @@ A simple Discord bot for making events for our DnD group.
 ```
 
 `!setSeason ARG`
+
 `!setEpisode ARG`
+
 Sets season and episode. If **ARG** is not provided just bumps value up by one.
 
 ```
